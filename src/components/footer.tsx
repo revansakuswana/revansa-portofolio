@@ -8,6 +8,7 @@ import {
 import { IconMailOpened } from "@tabler/icons-react";
 import { toast } from "sonner";
 import { Toaster } from "sonner";
+import type { ToasterProps } from "sonner";
 
 export default function Footer() {
   const handleCopy = () => {
