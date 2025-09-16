@@ -1,0 +1,30 @@
+:root {
+  --line-repeat-color: oklch(0.300 0 0);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: "Geist Mono", monospace;
+  text-align: center;
+  justify-content: center;
+}
+
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-line-repeat {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--line-repeat-color) 0px,
+    var(--line-repeat-color) 1px,
+    transparent 1px,
+    transparent 10px
+  );
+  background-attachment: fixed; /* keep pattern stationary on scroll */
+  background-repeat: repeat; /* ensure tiling */
+  background-position: center; /* optional: consistent anchor */
+}
