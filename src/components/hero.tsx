@@ -24,14 +24,12 @@ export default function Hero() {
             Developer
           </h1>
           <p className="text-balance text-muted-foreground text-sm leading-6 tracking-wide">
-            A passionate Full-stack Developer who loves building websites <br />{" "}
-            and web apps that are fast, modern, and user-friendly.
-            <br /> I enjoy turning ideas into real products, from designing
-            <br /> the front-end to managing the back-end and databases.
-            <br /> Always looking for ways to make systems better. <br /> With
-            strong collaboration skills and a problem-solving mindset, <br /> I
-            am eager to contribute to innovative projects and
-            <br /> grow within a dynamic team.
+            A passionate Full-stack Developer who loves building websites and
+            web apps that are fast, modern, and user-friendly. I enjoy turning
+            ideas into real products, from designing the front-end to managing
+            the back-end and databases. With strong collaboration skills and a
+            problem-solving mindset, I am eager to contribute to innovative
+            projects and grow within a dynamic team.
           </p>
 
           {/* Tombol dalam grid min-content (struktur baru, isi tetap) */}
