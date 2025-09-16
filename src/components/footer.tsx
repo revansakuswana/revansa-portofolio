@@ -6,7 +6,8 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { IconMailOpened } from "@tabler/icons-react";
-import { toast, Toaster } from "sonner";
+import { toast } from "sonner";
+import { Toaster } from "sonner";
 
 export default function Footer() {
   const handleCopy = () => {
