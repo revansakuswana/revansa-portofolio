@@ -10,6 +10,7 @@ import {
   IconMailOpened,
   IconBrandGithub,
   IconBrandLinkedinFilled,
+  IconDownload,
 } from "@tabler/icons-react";
 
 export default function Hero() {
@@ -33,7 +34,7 @@ export default function Hero() {
           </p>
 
           {/* Tombol dalam grid min-content (struktur baru, isi tetap) */}
-          <div className="grid w-fit grid-cols-[min-content_min-content] gap-2 min-[430px]:grid-cols-[min-content_min-content_min-content]">
+          <div className="flex w-full justify-start gap-2 flex-wrap">
             <TooltipProvider>
               <Tooltip>
                 <TooltipTrigger asChild>
@@ -78,6 +79,22 @@ export default function Hero() {
                 </TooltipTrigger>
                 <TooltipContent>
                   <p>LinkedIn Profile</p>
+                </TooltipContent>
+              </Tooltip>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <a
+                    href="/CV_Revansa Helsa Kuswana.pdf"
+                    download
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <Button variant="outline" className="hover:underline">
+                      <IconDownload className="h-4 w-4" /> Download CV
+                    </Button>
+                  </a>
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>Download my CV</p>
                 </TooltipContent>
               </Tooltip>
             </TooltipProvider>

@@ -8,6 +8,22 @@ import {
 export default function WorkExperience() {
   const experiences = [
     {
+      role: "Fullstack Developer - Contract",
+      company: "PT. GREAT GIANT FOODS",
+      date: "Oct 2025 – Present",
+      description: `
+      • Developed One Stop Information System for Pineapple Quality Control, focusing on monitoring and controlling plantation quality through integrated information processing and cross-team communication to ensure high-quality pineapple production.
+      • Built data analysis and reporting features, including dashboards with charts to support quality evaluation, trend monitoring, and management decision-making.
+      • Implemented the system using PHP, Laravel, Bootstrap, and MySQL, ensuring reliability, scalability, and ease of use for internal stakeholders.
+      • Use Git and GitHub for code management and collaboration`,
+      logos: [
+        { alt: "PHP", src: "https://cdn.simpleicons.org/php/171717" },
+        { alt: "Laravel", src: "https://cdn.simpleicons.org/laravel/171717" },
+        { alt: "Bootstrap", src: "https://cdn.simpleicons.org/bootstrap/171717" },
+        { alt: "MySQL", src: "https://cdn.simpleicons.org/mysql/171717" },
+      ],
+    },
+    {
       role: "Fullstack Developer - Project Based",
       company: "PT. INDONESIA TRANS NETWORK",
       date: "Jul 2025 – Aug 2025",
